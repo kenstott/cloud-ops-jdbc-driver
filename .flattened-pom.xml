@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.kenstott.components</groupId>
   <artifactId>cloud-ops-jdbc-driver</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <name>Cloud Ops JDBC Driver</name>
   <description>A JDBC driver for cloud operations and multi-cloud resource management using Apache Calcite with PostgreSQL-compatible SQL syntax</description>
   <url>https://github.com/kenstott/cloud-ops-jdbc-driver</url>
