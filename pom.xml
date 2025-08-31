@@ -12,7 +12,7 @@
 
     <groupId>com.kenstott.components</groupId>
     <artifactId>cloud-ops-jdbc-driver</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.4</version>
     <packaging>jar</packaging>
 
     <name>Cloud Ops JDBC Driver</name>
