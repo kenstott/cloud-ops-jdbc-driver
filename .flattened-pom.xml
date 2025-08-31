@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kenstott.components</groupId>
+  <artifactId>cloud-ops-jdbc-driver</artifactId>
+  <version>1.0.0</version>
+  <name>Cloud Ops JDBC Driver</name>
+  <description>A JDBC driver for cloud operations and multi-cloud resource management using Apache Calcite with PostgreSQL-compatible SQL syntax</description>
+  <url>https://github.com/kenstott/cloud-ops-jdbc-driver</url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Ken Stott</name>
+      <email>ken@kenstott.com</email>
+      <organization>Ken Stott Components</organization>
+      <organizationUrl>https://github.com/kenstott</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/kenstott/cloud-ops-jdbc-driver.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:kenstott/cloud-ops-jdbc-driver.git</developerConnection>
+    <url>https://github.com/kenstott/cloud-ops-jdbc-driver</url>
+  </scm>
+  <distributionManagement>
+    <repository>
+      <id>central</id>
+      <url>https://central.sonatype.com/api/v1/publisher/upload</url>
+    </repository>
+    <snapshotRepository>
+      <id>central</id>
+      <url>https://central.sonatype.com/api/v1/publisher/upload</url>
+    </snapshotRepository>
+  </distributionManagement>
+  <properties>
+    <maven.compiler.source>11</maven.compiler.source>
+    <avatica.version>1.25.0</avatica.version>
+    <jar.version>1.0.0</jar.version>
+    <maven.compiler.target>11</maven.compiler.target>
+    <calcite.version>1.41.0-SNAPSHOT</calcite.version>
+    <skipITs>true</skipITs>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+</project>
