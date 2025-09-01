@@ -1,0 +1,39 @@
+CloudOps JDBC Driver
+Copyright 2025 CloudOps JDBC Driver Contributors
+
+This product includes software developed by
+CloudOps JDBC Driver Contributors (https://github.com/kennethstott/cloud-ops-jdbc-driver).
+
+This product includes the following third-party components:
+
+Apache Commons Lang
+Copyright 2001-2023 The Apache Software Foundation
+Licensed under the Apache License, Version 2.0
+
+SLF4J API Module
+Copyright (c) 2004-2023 QOS.ch
+Licensed under the MIT License
+
+Logback Classic Module
+Copyright (c) 1999-2023 QOS.ch
+Licensed under the Eclipse Public License v1.0 or GNU Lesser General Public License version 2.1
+
+JUnit Jupiter
+Copyright 2015-2023 The JUnit Team
+Licensed under the Eclipse Public License v2.0
+
+Mockito
+Copyright (c) 2007 Mockito contributors
+Licensed under the MIT License
+
+AWS SDK for Java
+Copyright 2010-2023 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+Licensed under the Apache License, Version 2.0
+
+Google Cloud Client Libraries for Java
+Copyright 2017-2023 Google LLC
+Licensed under the Apache License, Version 2.0
+
+Azure SDK for Java
+Copyright (c) Microsoft Corporation. All rights reserved.
+Licensed under the MIT License
